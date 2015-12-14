@@ -47,6 +47,7 @@ source $BP_DIR/bin/util/common.sh
 # for extensions that need special treatment
 source $BP_DIR/bin/util/newrelic.sh
 source $BP_DIR/bin/util/blackfire.sh
+source $BP_DIR/bin/install_apt.sh
 source $BP_DIR/bin/install_v8js.sh
 
 # if this is set it prevents Git clones (e.g. for Composer installs from source) during the build in some circumstances, and it is set in SSH Git deploys to Heroku
